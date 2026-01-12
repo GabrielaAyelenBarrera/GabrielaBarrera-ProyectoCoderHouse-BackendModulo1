@@ -25,6 +25,15 @@ MODIFICACIONES Y MEJORAS IMPLEMENTADAS:
 -Probe metodos, rutas y modelo schema + Agregue validaciones de todo tipo
 
 
+MODIFICACIONES Y MEJORAS IMPLEMENTADAS:
+
+-DESGARGUE EXPRESS-HANDLEBARS
+-ARREGLE PAGINADO, LIMIT Y CATEGORY EN http://localhost:8080/products 
+-AÑADI BOTON DE "VER CARRITO" REDIRECCIONA EN http://localhost:8080/cart Y BOTONES DE "Actualizar Cantidad" Y "Eliminar del Carrito"
+-Cambie el uso de productId a product en mi DAO y rutas para alinear con el esquema cartSchema.
+-Probe metodos, rutas y modelo schema + Agregue validaciones de todo tipo
+
+
 CARTS:
 
 1-GET  http://localhost:8080/api/carts                                    OK
@@ -108,3 +117,4 @@ La página de productos muestra una lista de productos con la opción de agregar
 - **Paginación**: La página muestra opciones para navegar entre diferentes páginas de productos.
 
 **Código relevante (`public/js/products.js`)**:
+
