@@ -2,7 +2,7 @@
 <ul id="carts-list">
   {{#each cartItems}}
     <li>
-      <strong>{{this.productTitle}}</strong><br>
+      <strong>{{this.product.title}}</strong><br>
       Cantidad: 
       <input type="number" class="quantity-input" 
              data-product-id="{{this.productId}}" 
