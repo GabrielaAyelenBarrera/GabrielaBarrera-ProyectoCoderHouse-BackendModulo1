@@ -267,9 +267,13 @@ GET /api/products?page=3
 ## 📌 Estado del proyecto
 
 ✔️ API REST funcional
+
 ✔️ Persistencia en MongoDB
+
 ✔️ Frontend integrado con Handlebars
+
 ✔️ Validaciones completas
+
 ✔️ Seed de datos
 
 
