@@ -1,4 +1,4 @@
-# 🛒 Proyecto eCommerce – Backend + Frontend
+# 🛒 Proyecto eCommerce (Backend + Frontend)
 
 Este proyecto corresponde a un **eCommerce desarrollado con Node.js, Express, MongoDB y Handlebars**, que implementa una API REST completa para la gestión de **productos y carritos**, junto con una **interfaz web funcional** para navegar productos y operar un carrito de compras.
 
