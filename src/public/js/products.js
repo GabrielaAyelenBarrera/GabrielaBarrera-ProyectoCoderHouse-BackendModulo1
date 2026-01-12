@@ -72,12 +72,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".add-to-cart");
 
     buttons.forEach((button) => {
-      button.addEventListener("click", (event) => {
-        const productId = event.target.dataset.productId;
-        const productTitle = event.target.dataset.title;
+     button.addEventListener("click", (event) => {
+  const btn = event.currentTarget;
+  const productId = btn.dataset.productId;
+  const productTitle = btn.dataset.title;
+  manageCart(productId, productTitle);
+});
 
-        manageCart(productId, productTitle);
-      });
     });
   };
 
@@ -95,3 +96,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Añadi el evento para el botón "Ver Carrito"
   handleViewCart();
 });
+
