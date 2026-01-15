@@ -50,10 +50,9 @@ npm install
 
 ⚠️ **Importante – Seguridad**
 
+>Crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
 
-Crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
-
-```env
+```bash
 PORT=8080
 MONGO_URL=mongodb+srv://<USUARIO>:<PASSWORD>@<CLUSTER>/<DB>?retryWrites=true&w=majority
 DB_NAME=clase15
@@ -95,9 +94,7 @@ El servidor quedará corriendo en:
 public/js/products.js
 ```
 
-```js
-const hardcodedCartId = "ID_DEL_CARRITO";
-```
+`const hardcodedCartId = "ID_DEL_CARRITO";`
 
 Para usar otro carrito, solo es necesario **reemplazar ese ID**.
 
@@ -130,9 +127,7 @@ Incluye:
 
 Para generar datos de prueba:
 
-```bash
-node seedMongo.js
-```
+`node seedMongo.js`
 
 Este script:
 
