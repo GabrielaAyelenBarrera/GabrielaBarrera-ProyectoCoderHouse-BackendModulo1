@@ -279,6 +279,7 @@ GET /api/products?page=3
 
 ---
 
+
 ## 👩‍💻 Autora
 **Gabriela Ayelén Barrera**  
 📫 Contacto: gabrielaayelenbarrera1145@gmail.com  
